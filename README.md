@@ -63,29 +63,7 @@ Before you begin, ensure that you have the following installed:
 3. Run the Flutter app:
     flutter run
 
-<!-- ##  Contributing
-
-We welcome contributions to ImoPath! If you'd like to help improve the platform, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature-branch).
-3. Commit your changes (git commit -am 'Add new feature').
-4. Push to your fork (git push origin feature-branch).
-5. Open a pull request.
-
-### Guidelines:
-
-* Ensure your code is well-commented.
-* Write clear, concise commit messages.
-* Follow coding standards (PEP 8 for Python, Dart formatting for Flutter).
-
-##  License
-
-This project is licensed under the MIT License – see the LICENSE file for details. -->
-
 ##  Contact
 
 If you have any questions, suggestions, or feedback, feel free to contact us at:
 Email: topzyray009@gmail.com
-<!-- Twitter: @ImoPath
-LinkedIn: ImoPath -->
