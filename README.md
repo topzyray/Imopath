@@ -1,4 +1,4 @@
-# ImoPath
+# ImoPath (In-Progress)
 
 ImoPath is an innovative e-learning platform designed to bridge educational gaps and empower learners across Africa. By providing accessible, high-quality education, ImoPath creates a pathway to knowledge, personal growth, and future opportunities.
 
@@ -31,30 +31,30 @@ This platform is built to offer a seamless educational experience, connecting st
 ## Installation & Setup
 
 ### Prerequisites
-Before you begin, ensure that you have the following installed:
+Ensure that you have the following installed:
 - Python 3.x
-- MySQL
+- SQL (Postgresql)
 - Dart SDK
 - Flutter SDK
 
 ### Backend (FastAPI)
 1. Clone this repository:
    ```bash
-   git clone https://github.com/topzyray/ImoPath.git
-   cd ImoPath/backend
+   git clone https://github.com/topzyray/Imopath.git
+   cd Imopath/backend
 
 2. Install dependencies:
     pip install -r requirements.txt
 
 3. Set up the database:
-    * Create a MySQL database and update your connection details in the .env file.
+    * Create a SQL (Postgresql) database and update your connection details in the .env file.
 
 4. Run the FastAPI server:
     uvicorn main:app --reload
 
 ### Frontend (Flutter)
 1. Clone the repository (if not already done):
-    git clone https://github.com/topzryay/ImoPath.git
+    git clone https://github.com/topzryay/Imopath.git
     cd ImoPath/frontend
 
 2. Install Flutter dependencies:
