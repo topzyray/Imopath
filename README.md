@@ -65,7 +65,6 @@ Ensure that you have the following installed:
    fastapi dev src/
    ```
 
-Check the README.md in backend folder for detailed steps.
 
 ### Frontend (Flutter)
 1. Clone the repository (if not already done):
