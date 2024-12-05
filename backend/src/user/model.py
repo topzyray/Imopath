@@ -27,7 +27,7 @@ class User(SQLModel, table=True):
     email: str = Field(unique=True, nullable=False)
     first_name: str
     last_name: str
-    # user_type: UserType = Field(sa_column=Enum(UserType))
+    user_type: str = Field(sa_column=Enum(UserType))
     is_verified: bool = Field(default=False)
     is_active: bool = Field(default=True)
     password_hash: str = Field(exclude=True)

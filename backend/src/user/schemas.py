@@ -1,6 +1,19 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
+from datetime import datetime, date
+import uuid
+
+
+class User(BaseModel):
+    uid: uuid.UUID
+    username: str
+    is_active: bool
+    created_at: datetime
+    updated_at: datetime
+
 
 class UserCreateModel(BaseModel):
-    username: str = Field(max_length=8)
-    email: str = Field(max_length=40)
-    password: str = Field(min_length=6)
+    username: str
+
+
+class UserUpdateModel(BaseModel):
+    username: str
