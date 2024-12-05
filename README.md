@@ -64,7 +64,7 @@ Ensure that you have the following installed:
    ```bash
    fastapi dev src/
    ```
-
+More details on how to run the backend: [Click here](https://github.com/topzyray/Imopath/blob/main/backend/README.md)
 
 ### Frontend (Flutter)
 1. Clone the repository (if not already done):
