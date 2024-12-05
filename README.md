@@ -50,7 +50,7 @@ Ensure that you have the following installed:
     * Create a SQL (Postgresql) database and update your connection details in the .env file.
 
 4. Run the FastAPI server:
-    uvicorn main:app --reload
+    Development: fastapi dev src/
 
 ### Frontend (Flutter)
 1. Clone the repository (if not already done):
