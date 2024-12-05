@@ -44,7 +44,14 @@ Ensure that you have the following installed:
    cd Imopath/backend
    ```
 
-2. Install dependencies:
+2. Create a virtual environment by running:
+   ```bash
+   python -m venv .venv
+   ```
+
+   Activate.
+
+3. Install dependencies:
    ```bash
     pip install -r requirements.txt
    ```
@@ -57,6 +64,8 @@ Ensure that you have the following installed:
    ```bash
    fastapi dev src/
    ```
+
+Check the README.md in backend folder for detailed steps.
 
 ### Frontend (Flutter)
 1. Clone the repository (if not already done):
