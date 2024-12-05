@@ -42,15 +42,21 @@ Ensure that you have the following installed:
    ```bash
    git clone https://github.com/topzyray/Imopath.git
    cd Imopath/backend
+   ```
 
 2. Install dependencies:
+   ```bash
     pip install -r requirements.txt
+   ```
 
-3. Set up the database:
+4. Set up the database:
     * Create a SQL (Postgresql) database and update your connection details in the .env file.
 
-4. Run the FastAPI server:
-    Development: fastapi dev src/
+5. Run the FastAPI server:
+   Development mode:
+   ```bash
+   fastapi dev src/
+   ```
 
 ### Frontend (Flutter)
 1. Clone the repository (if not already done):
