@@ -26,7 +26,7 @@ This platform is built to offer a seamless educational experience, connecting st
 
 - **Frontend**: Dart with Flutter – for a rich, interactive, and cross-platform mobile experience.
 - **Backend**: Python with FastAPI – for a fast, scalable, and secure API to serve educational content.
-- **Database**: MySQL – for efficient data storage and management of courses, users, and learning materials.
+- **Database**: SQL (Postgresql) – for efficient data storage and management of courses, users, and learning materials.
 
 ## Installation & Setup
 
