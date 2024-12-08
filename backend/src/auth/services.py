@@ -41,7 +41,6 @@ class UserService:
             **user_data_dict
         )
 
-        new_user.user_type = new_user.user_type.upper()
         new_user.password_hash = generate_password_hash(user_data_dict["password"])
 
         print(new_user)

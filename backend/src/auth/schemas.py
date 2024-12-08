@@ -1,5 +1,7 @@
 from pydantic import BaseModel, Field
 from datetime import datetime
+from .model import UserType
+from sqlalchemy import Enum
 import uuid
 
 
@@ -23,11 +25,16 @@ class UserCreateModel(BaseModel):
     username: str = Field(max_length=10)
     email: str = Field(max_length=40)
     password: str = Field(min_length=6)
-    user_type: str
+    user_type: UserType = Field(sa_column=Enum(UserType))
 
 
 class UserUpdateModel(BaseModel):
     first_name: str
     last_name: str
     username: str
+    password: str
+
+
+class UserLoginModel(BaseModel):
+    email: str
     password: str
